@@ -1,0 +1,50 @@
+.task-container {
+  padding: 16px;
+}
+
+.task-card {
+  margin-top: 16px;
+  padding: 16px;
+}
+
+.filter-select {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .mat-raised-button {
+    width: 100%;
+  }
+
+  .mat-form-field {
+    width: 100%;
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 600px;
+  }
+}
+
+@media (max-width: 400px) {
+  .task-card {
+    padding: 8px;
+  }
+
+  .mat-header-cell,
+  .mat-cell {
+    font-size: 14px;
+  }
+}
